@@ -32,6 +32,9 @@
     <Content Include="hello_world.js">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="myfirstmodule.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />

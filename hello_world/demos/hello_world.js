@@ -1,7 +1,7 @@
 ﻿console.log('Hello world!');
 
 var http = require('http');
-var dt = require('./myfirstmodule');
+var dt = require('./modules/myfirstmodule');
 var port = process.env.PORT || 1337;
 
 http.createServer(function (req, res) {

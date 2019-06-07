@@ -12,7 +12,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9ccdf1ed-1e85-4429-9462-e7da83aae9df</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>demo_querystring.js</StartupFile>
+    <StartupFile>demos\demo_readfile.js</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -29,21 +29,32 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="demo_http_url.js">
+    <Content Include="demos\demo_http_url.js">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="demo_querystring.js">
+    <Content Include="demos\demo_querystring.js">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="hello_world.js">
+    <Content Include="demos\fsopen\demofile1.html">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="myfirstmodule.js">
+    <Content Include="demos\demo_readfile.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="demos\hello_world.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="demos\modules\myfirstmodule.js">
       <SubType>Code</SubType>
     </Content>
     <Content Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="demos\" />
+    <Folder Include="demos\fsopen\" />
+    <Folder Include="demos\modules\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>

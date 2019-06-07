@@ -12,7 +12,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9ccdf1ed-1e85-4429-9462-e7da83aae9df</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>hello_world.js</StartupFile>
+    <StartupFile>demo_http_url.js</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -29,6 +29,9 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="demo_http_url.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="hello_world.js">
       <SubType>Code</SubType>
     </Content>

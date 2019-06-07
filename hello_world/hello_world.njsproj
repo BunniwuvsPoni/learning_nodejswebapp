@@ -12,7 +12,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9ccdf1ed-1e85-4429-9462-e7da83aae9df</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>demos\demo_readfile.js</StartupFile>
+    <StartupFile>demos\fsopen\demo_readfile.js</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -38,10 +38,10 @@
     <Content Include="demos\fsopen\demofile1.html">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="demos\demo_readfile.js">
+    <Content Include="demos\fsopen\demo_readfile.js">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="demos\hello_world.js">
+    <Content Include="demos\modules\hello_world.js">
       <SubType>Code</SubType>
     </Content>
     <Content Include="demos\modules\myfirstmodule.js">

@@ -3,7 +3,7 @@ var http = require('http');
 var fs = require('fs');
 
 http.createServer(function (req, res) {
-    fs.readFile('demofile1.html', function (err, data) {
+    fs.readFile('./data.txt', function (err, data) {
         //Not sure why callback triggers twice and the resulting data is null
 
         console.log("Read the file");

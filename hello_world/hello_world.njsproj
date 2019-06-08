@@ -35,6 +35,9 @@
     <Content Include="demos\demo_querystring.js">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="demos\fsopen\data.txt">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="demos\fsopen\demofile1.html">
       <SubType>Code</SubType>
     </Content>

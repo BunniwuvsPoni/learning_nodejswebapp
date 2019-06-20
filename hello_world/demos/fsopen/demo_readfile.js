@@ -1,34 +1,13 @@
-﻿/*
-var http = require('http');
+﻿var http = require('http');
 var fs = require('fs');
 
-
-fs.readFile('data.txt', function (err, data) { // File is still not reading properly
-    console.log(data);
-};
-*/
-
-console.log('Hello world!');
-
-var http = require('http');
-var port = process.env.PORT || 1337;
-
 http.createServer(function (req, res) {
-    res.writeHead(200, { 'Content-Type': 'text/html' });
-    res.write('Hello, world!');
-    res.end();
-}).listen(port);
-
-console.log('Server has been initiated.');
-
-/*
-http.createServer(function (req, res) {
-    fs.readFile('data.txt', function (err, data) { // File is still not reading properly
+    // You have to run this file from command line and not from within VS (not sure why thou)
+    fs.readFile('data.txt', function (err, data) {
         res.writeHead(200, { 'Content-Type': 'text/html' });
         res.write(data);
         res.end();
     });
 }).listen(1337);
-*/
 
 console.log("end of file");

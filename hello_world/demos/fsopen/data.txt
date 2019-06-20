@@ -1,2 +1,3 @@
 ﻿Sample text line
+<br>
 Additional text content
